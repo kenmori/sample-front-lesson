@@ -11,4 +11,5 @@ test('if riyoukiyaku clicked, modal is open and exist 利用規約 text', async 
   await page.goto('http://localhost:3000/register.html');
   await page.locator('#js-checkbox-link').click ();
   await expect(page.locator('#js-modal-inner')).toContainText("利用規約")
+  await page.screenshot({ path: "./playwright/screenshots/register/riyoukiyaku.png" });
 });
