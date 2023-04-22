@@ -1,14 +1,28 @@
 import { test, expect } from '@playwright/test';
-
-test('if email input fill "fafafa", error message appear', async ({ page }) => {
+test.describe.configure({ mode: 'parallel' });
+test.beforeEach(async ({ page }, testInfo) => {
   await page.goto('http://localhost:3000/register.html');
-  await page.getByLabel('E-mail必須').fill('fafafa');
-  await page.getByLabel('E-mail必須').blur();
-  await page.screenshot({ path: "./src/playwright/login/email-error-message.png" });
 });
 
+test.describe("email", () => {
+  test.beforeEach(async ({page}) => {
+    await page.getByLabel('E-mail必須').fill('fafafa');
+  })
+  test.afterEach(async ({page}, testInfo) => {
+    console.log(testInfo)
+    await page.screenshot({ path: `./playwright/screenshots/register/${testInfo.title}.png` });
+  })
+  test('if input fill "fafafa", error message appear blur', async ({ page }) => {
+    await page.getByLabel('E-mail必須').blur();
+  });
+  test('if input fill "fafafa", error message appear click', async ({ page }) => {
+    await page.getByLabel('E-mail必須').click();
+  });
+})
+
+
 test('if riyoukiyaku clicked, modal is open and exist 利用規約 text', async ({ page }) => {
-  await page.goto('http://localhost:3000/register.html');
+  expect(page.url()).toBe("http://localhost:3000/register.html")
   await page.locator('#js-checkbox-link').click ();
   await expect(page.locator('#js-modal-inner')).toContainText("利用規約")
   await page.screenshot({ path: "./playwright/screenshots/register/riyoukiyaku.png" });
