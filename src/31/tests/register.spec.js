@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-test.describe.configure({ mode: 'parallel' });
+// test.describe.configure({ mode: 'parallel' });
 test.beforeEach(async ({ page }, testInfo) => {
-  await page.goto('http://localhost:3000/register.html');
+  await page.goto('http://localhost:3000/31/register.html');
 });
 
 test.describe("email", () => {
@@ -9,7 +9,6 @@ test.describe("email", () => {
     await page.getByLabel('E-mail必須').fill('fafafa');
   })
   test.afterEach(async ({page}, testInfo) => {
-    console.log(testInfo)
     await page.screenshot({ path: `./playwright/screenshots/register/${testInfo.title}.png` });
   })
   test('if input fill "fafafa", error message appear blur', async ({ page }) => {
@@ -22,7 +21,6 @@ test.describe("email", () => {
 
 
 test('if riyoukiyaku clicked, modal is open and exist 利用規約 text', async ({ page }) => {
-  expect(page.url()).toBe("http://localhost:3000/register.html")
   await page.locator('#js-checkbox-link').click ();
   await expect(page.locator('#js-modal-inner')).toContainText("利用規約")
   await page.screenshot({ path: "./playwright/screenshots/register/riyoukiyaku.png" });

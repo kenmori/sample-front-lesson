@@ -5,8 +5,9 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "test-view": "playwright codegen http://localhost:3000/login.html",
-    "test": "playwright test ./src/tests/*.js"
+    "test:view": "playwright codegen http://localhost:3000/login.html",
+    "test": "playwright test",
+    "test:report": "playwright show-report"
   },
   "devDependencies": {
     "@playwright/test": "^1.32.3",
