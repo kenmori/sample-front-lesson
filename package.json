@@ -1,6 +1,7 @@
 {
   "name": "lesson30",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,7 +12,8 @@
     "fmt": "prettier --write *.js",
     "lint": "eslint --fix *.js",
     "fix": "npm run fmt && npm run lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
   },
   "lint-staged": {
     "*.js": [
