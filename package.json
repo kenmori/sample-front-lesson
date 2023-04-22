@@ -6,11 +6,12 @@
     "build": "vite build",
     "serve": "vite preview",
     "test-view": "playwright codegen http://localhost:3000/login.html",
-    "test": "playwright test ./src/test/*.js"
+    "test": "playwright test ./src/tests/*.js"
   },
   "devDependencies": {
-    "vite": "^2.4.4",
-    "playwright": "1.32.3"
+    "@playwright/test": "^1.32.3",
+    "playwright": "1.32.3",
+    "vite": "^2.4.4"
   },
   "dependencies": {
     "chance": "^1.1.10",
