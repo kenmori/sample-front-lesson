@@ -1,5 +1,6 @@
 // @ts-check
-const { defineConfig, devices } = require('@playwright/test');
+/* eslint-disable */
+import { defineConfig, devices } from '@playwright/test';
 
 /**
  * Read environment variables from file.
@@ -77,4 +78,4 @@ module.exports = defineConfig({
     // timeout: 6000
   },
 });
-
+/* eslint-disable */
