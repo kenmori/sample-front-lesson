@@ -1,0 +1,196 @@
+[
+    {
+        "id": "81f55329-9212-41b6-a71b-c7c02bcdee54",
+        "category": "news",
+        "display": true,
+        "img": "./img/img-news.png",
+        "articles": [
+            {
+                "id": "89e779dd-a096-4ef4-b810-9a8f0a80ef18",
+                "date": "2022-03-02",
+                "title": "宇宙からのお土産？隕石に刻まれたエイリアンの伝言",
+                "img": "./img/img-news01.jpg",
+                "comments": [
+                    {
+                        "id": "6b999dda-f0cb-443a-abe1-9158cc537ad9",
+                        "name": "takeda",
+                        "text": "It's so hard, my head is going to explode."
+                    },
+                    {
+                        "id": "6b999dda-f0cb-443a-abe1-9158cc537ad8",
+                        "name": "yamada",
+                        "text": "It's so hard, my head is going to explode."
+                    },
+                    {
+                        "id": "6b999dda-f0cb-443a-abe1-9158cc537ad7",
+                        "name": "takahashi",
+                        "text": "It's so hard, my head is going to explode."
+                    }
+                ]
+            },
+            {
+                "id": "89e779dd-a096-4ef4-b810-9a8f0a80ef19",
+                "date": "2022-03-08",
+                "title": "世界初！ペンギン専用の交通信号機が登場",
+                "img": "./img/img-news02.jpg",
+                "comments": []
+            },
+            {
+                "id": "89e779dd-a096-4ef4-b810-9a8f0a80ef20",
+                "date": "2021-12-30",
+                "title": "ロボットが人間を模倣：休暇を楽しむAIが登場",
+                "img": "./img/img-news03.jpg",
+                "comments": []
+            },
+            {
+                "id": "89e779dd-a096-4ef4-b810-9a8f0a80ef21",
+                "date": "2022-1-3",
+                "title": "インビジブル・アート：透明な絵画がオークションで高値",
+                "img": "./img/img-news04.jpg",
+                "comments": []
+            }
+        ]
+    },
+    {
+        "id": "91f55329-9212-41b6-a71b-c7c02bcdee54",
+        "category": "economy",
+        "display": false,
+        "img": "./img/img-economy.png",
+        "articles": [
+            {
+                "id": "99e779dd-a096-4ef4-b810-9a8f0a80ef18",
+                "date": "2022-03-08",
+                "title": "宇宙人通貨！火星の仮想通貨ブームに地球が熱狂",
+                "img": "./img/img-economy01.jpg",
+                "comments": []
+            },
+            {
+                "id": "99e779dd-a096-4ef4-b810-9a8f0a80ef19",
+                "date": "2021-11-30",
+                "title": "お金が生える木、ついに発見！経済界に革命が訪れる？",
+                "img": "./img/img-economy02.jpg",
+                "comments": [
+                {
+                    "id": "5a999dda-f0cb-443a-abe1-9158cc537ad9",
+                    "name": "takeda",
+                    "text": "It's so hard, my head is going to explode."
+                },
+                {
+                    "id": "5a999dda-f0cb-443a-abe1-9158cc537ad8",
+                    "name": "yamada",
+                    "text": "It's so hard, my head is going to explode."
+                }
+                ]
+            },
+            {
+                "id": "99e779dd-a096-4ef4-b810-9a8f0a80ef20",
+                "date": "2021-12-30",
+                "title": "AIが決める給与！ロボットが人間の仕事を評価",
+                "img": "./img/img-economy03.jpg",
+                "comments": []
+            },
+            {
+                "id": "99e779dd-a096-4ef4-b810-9a8f0a80ef21",
+                "date": "2022-1-3",
+                "title": "未来予測が新ビジネス！タイムトラベラー投資家が急増",
+                "img": "./img/img-economy04.jpg",
+                "comments": []
+            }
+        ]
+    },
+    {
+        "id": "61f55329-9212-41b6-a71b-c7c02bcdee54",
+        "category": "entertainment",
+        "display": false,
+        "img": "./img/img-entertainment.png",
+        "articles": [
+            {
+                "id": "69e779dd-a096-4ef4-b810-9a8f0a80ef18",
+                "date": "2022-03-08",
+                "title": "ゾンビ映画の撮影中、本物のゾンビが現れる！",
+                "comments": []
+            },
+            {
+                "id": "69e779dd-a096-4ef4-b810-9a8f0a80ef19",
+                "date": "2021-11-30",
+                "title": "世界最速のピザ配達！ジェットパックで空を飛ぶピザ屋が大ヒット",
+                "img": "./img/img-entertainment02.jpg",
+                "comments": []
+            },
+            {
+                "id": "69e779dd-a096-4ef4-b810-9a8f0a80ef20",
+                "date": "2021-12-30",
+                "title": "AIが映画監督デビュー！機械が描く感動のヒューマンドラマ",
+                "img": "./img/img-entertainment03.jpg",
+                "comments": [
+                    {
+                        "id": "6b999dda-f0cb-443a-abe1-9158cc537ad9",
+                        "name": "takeda",
+                        "text": "It's so hard, my head is going to explode."
+                    }
+                ]
+            },
+            {
+                "id": "69e779dd-a096-4ef4-b810-9a8f0a80ef21",
+                "date": "2022-1-3",
+                "title": "ハリウッドスターが実際のスパイに！映画の役柄が現実に",
+                "img": "./img/img-entertainment04.jpg",
+                "comments": []
+            }
+        ]
+    },
+    {
+        "id": "21f55329-9212-41b6-a71b-c7c02bcdee54",
+        "category": "domestic",
+        "display": false,
+        "img": "./img/img-domestic.png",
+        "articles": [
+            {
+                "id": "29e779dd-a096-4ef4-b810-9a8f0a80ef18",
+                "date": "2022-03-08",
+                "title": "渋谷のハチ公像が突然動き出す！驚きのプロジェクションマッピング技術披露",
+                "img": "./img/img-domestic01.jpg",
+                "comments": []
+            },
+            {
+                "id": "29e779dd-a096-4ef4-b810-9a8f0a80ef19",
+                "date": "2021-11-30",
+                "title": "富士山頂で寿司レストラン開店！絶景を楽しみながら握りを堪能",
+                "img": "./img/img-domestic02.jpg",
+                "comments": []
+            },
+            {
+                "id": "29e779dd-a096-4ef4-b810-9a8f0a80ef20",
+                "date": "2021-12-30",
+                "title": "日本のお城でタイムスリップイベント！武将や姫と一緒に時代を体験",
+                "img": "./img/img-domestic03.jpg",
+                "comments": [
+    
+                ]
+            },
+            {
+                "id": "29e779dd-a096-4ef4-b810-9a8f0a80ef21",
+                "date": "2022-1-3",
+                "title": "スカイツリーがロボットに変形！東京の新たなシンボルが登場",
+                "img": "./img/img-domestic04.jpg",
+                "comments": [
+                    {
+                        "id": "6b999dda-f0cb-443a-abe1-9158cc537ad9",
+                        "name": "takeda",
+                        "text": "It's so hard, my head is going to explode."
+                    },
+                    {
+                        "id": "6b999dda-f0cb-443a-abe1-9158cc537ad8",
+                        "name": "yamada",
+                        "text": "It's so hard, my head is going to explode."
+                    },
+                    {
+                        "id": "6b999dda-f0cb-443a-abe1-9158cc537ad7",
+                        "name": "takahashi",
+                        "text": "It's so hard, my head is going to explode."
+                    }
+                ]
+            }
+        ]
+    }
+]
