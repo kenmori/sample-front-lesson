@@ -23,6 +23,7 @@ export default defineConfig({
         entryFileNames: `assets/js/[name].js`,
       },
       input: {
+        main: resolve(__dirname, root, 'index.html'),
         30: resolve(__dirname, root, '30/index.html'),
         31: resolve(__dirname, root, '31/index.html')
       }
