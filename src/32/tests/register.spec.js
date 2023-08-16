@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test('If your email address was already registered in the member registration, you will get an error', async ({
   page,
 }) => {
-  await page.goto('http://localhost:3000/lesson32/register.html');
+  await page.goto('http://localhost:3000/32/register.html');
 
   const name = 'takeda';
   const email = 'fafafa@sample.com';
@@ -43,7 +43,7 @@ test('If your email address was already registered in the member registration, y
 });
 
 test('Correct keyboard transitions in the register form', async ({ page }) => {
-  await page.goto('http://localhost:3000/lesson32/register.html');
+  await page.goto('http://localhost:3000/32/register.html');
 
   const userNameArea = page.getByLabel('UserName必須');
   const emailArea = page.getByLabel('E-mail必須');
