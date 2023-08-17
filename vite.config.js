@@ -37,5 +37,8 @@ export default defineConfig({
         ...transformedObject,
       },
     },
+    server: {
+      port: 3000,
+    },
   },
 });
